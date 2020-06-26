@@ -4,5 +4,11 @@ module.exports = {
   rules: {
     'func-names': 'off',
     'no-console': 'off',
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
   },
 };

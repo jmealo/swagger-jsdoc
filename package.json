@@ -34,9 +34,12 @@
   },
   "dependencies": {
     "commander": "5.0.0",
+    "diff": "^4.0.2",
     "doctrine": "3.0.0",
     "glob": "7.1.6",
     "js-yaml": "3.13.1",
+    "line-column": "^1.0.2",
+    "source-map": "^0.7.3",
     "swagger-parser": "9.0.1"
   },
   "devDependencies": {
